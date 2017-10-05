@@ -29,3 +29,5 @@ with open(tmp_f, "w") as fw:
                 fw.write(line)
 
 os.system("rm {} && mv {} {}".format(md_file, tmp_f, md_file))
+# move md file into another place, where individual posts can include them 
+os.system("mv {} _posts/ipynb_md/".format(md_file))
