@@ -42,7 +42,7 @@ into these points and think of it as a manifold.
 To make this visualization, PCA was used to project 784D points (this is what you get when you flatten 28 * 28 MNIST image) onto a 2D plane.
 To better understand how this figure was created, let's try to replicate this result ourselves. And it should help to understand better what manifolds are.
 
-{% include_relative /ipynb/manifolds.md %}
+{% include_relative /ipynb_md/manifolds.md %}
 
 If you are interested, you can [dowload the jupyter notebook]({{ "/ipynb/manifolds.ipynb" | absolute_url }}).
 
